@@ -24,44 +24,44 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  cupertino_icons: any
 
   # より優先度の高いものを上に置いています
 
   # 状態管理
   # 常套セット
   # hooksなのはuseProvider()が楽なため
-  hooks_riverpod: ^0.14.0+4
-  state_notifier: ^0.7.0
-  freezed: ^0.14.2
+  hooks_riverpod: any
+  state_notifier: any
+  freezed: any
 
   # GetX流行ってるらしいので入れてみた
   # Riverpodとの違いを確認して選定すること
-  get: ^4.1.4
+  get: any
 
   # 多言語対応
-  intl: ^0.17.0
+  intl: any
   # JSON
-  json_serializable: ^4.1.3
+  json_serializable: any
   # ログ出力
-  logger: ^1.0.0
+  logger: any
 
   # firebaseを使うなら
   # アプリ解析系のセット
-  firebase_core: ^1.3.0
-  firebase_analytics: ^8.1.2
-  firebase_crashlytics: ^2.0.6
-  firebase_performance: ^0.7.0+5
-  firebase_app_check: ^0.0.1+2
+  firebase_core: any
+  firebase_analytics: any
+  firebase_crashlytics: any
+  firebase_performance: any
+  firebase_app_check: any
   # アプリ内広告
-  google_mobile_ads: ^0.13.0
+  google_mobile_ads: any
 
   # バイト配列が使いたいなら
-  characters: ^1.1.0
+  characters: any
 
   # Dartがサポートしていない記法が使える
   # ただ、そのパターンが思い至らないから使わないかも
-  quiver: ^3.0.1
+  quiver: any
 
 dev_dependencies:
   flutter_test:
